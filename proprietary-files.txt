@@ -1241,7 +1241,6 @@ vendor/lib/lib-rtpcore.so
 vendor/lib/lib-rtpsl.so
 vendor/lib/lib-siputility.so
 vendor/lib/lib-uceservice.so
-vendor/lib/libmdmdetect.so
 vendor/lib/libnlnetmgr.so
 vendor/lib/libparam_vendor.so
 vendor/lib/qtibus.so
@@ -1251,7 +1250,6 @@ vendor/lib/vendor.oneplus.hardware.param@1.0.so
 vendor/lib64/libconfigdb.so
 vendor/lib64/libdsi_netctrl.so
 vendor/lib64/liblqe.so
-vendor/lib64/libmdmdetect.so
 vendor/lib64/libnetmgr.so
 vendor/lib64/libnetmgr_common.so
 vendor/lib64/libnetmgr_nr_fusion.so
