@@ -276,6 +276,7 @@ service wififtmserver /vendor/bin/sh vendor/bin/wifi_ftm
 on property:vendor.wlan.ftm.up=1
     start wififtmserver
 on init
+    setprop vendor.boot.verifiedbootstate "orange"
     mount tmpfs none /sys/fs/cgroup mode=0750,uid=0,gid=1000
     mkdir /sys/fs/cgroup/freezer 0750 root system
     mount cgroup none /sys/fs/cgroup/freezer  freezer
